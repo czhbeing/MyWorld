@@ -1,0 +1,9 @@
+<div id="login">
+    <h1>Login Test</h1>
+    <form method="post">
+        {{test}}
+        <input [(ngModel)]="user.username" type="text" required="required" placeholder="userName" name="username">
+        <input [(ngModel)]="user.password" ng-mo type="text" required="required" placeholder="password" name="password">
+        <button (click)="onSubmit()" class="button" type="submit"> Login </button>
+    </form>
+</div>
